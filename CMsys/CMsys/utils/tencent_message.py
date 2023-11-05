@@ -8,7 +8,7 @@ from CMsys import settings
 # 创建应用：SDK AppID：1400659894
 # 申请签名：签名id:453703 名称：nwpuzhy公众号
 # 申请模板：模板id：1367808 名称：nwpuzhy公众号短信
-# 申请腾讯云 secretid：AKIDQfeOs51g5D4ey0lFTQ6VdU4NQChuqc7L secretkey：yg7HjvqUrxmKbaJlvoSqxmKdfQt62g3A
+# 
 # 调用接口发送短信
 def send_message(phone, code, template_id="1372615"):
     try:
